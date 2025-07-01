@@ -1,2 +1,0 @@
-# terra-aws
-terraform-aws
