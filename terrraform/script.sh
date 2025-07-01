@@ -6,10 +6,10 @@ sudo wget https://corretto.aws/downloads/latest/amazon-corretto-21-x64-linux-jdk
 sudo yum install git -y 
 
 cd /opt 
-git clone https://github.com/techeazy-consulting/techeazy-devops.git
+git clone https://github.com/rushiphalke247/terra-aws.git
 sudo chown -R ec2-user:ec2-user /opt/*
-cd techeazy-devops
-
+cd terra-aws
+cd java 
 sudo chmod +x mvnw
 ./mvnw clean install
 
